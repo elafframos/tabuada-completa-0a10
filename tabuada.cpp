@@ -4,6 +4,10 @@
 
 int main () {
 	
+	setlocale(LC_ALL, "PORTUGUESE");
+	
+	printf("***TABUADA DE MULTIPLICAÇÃO***\n\n");
+	
 	for (int numero = 0; numero <= 10; numero++) {
 		printf("Tabuada do %d:\n", numero);
 		
